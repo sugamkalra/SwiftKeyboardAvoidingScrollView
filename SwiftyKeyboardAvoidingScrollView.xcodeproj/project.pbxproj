@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15FADBA81C1AD0AF0088C798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FADBA71C1AD0AF0088C798 /* AppDelegate.swift */; };
+		15FADBAA1C1AD0AF0088C798 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FADBA91C1AD0AF0088C798 /* ViewController.swift */; };
+		15FADBAD1C1AD0AF0088C798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FADBAB1C1AD0AF0088C798 /* Main.storyboard */; };
+		15FADBB01C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15FADBAE1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollView.xcdatamodeld */; };
+		15FADBB21C1AD0AF0088C798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15FADBB11C1AD0AF0088C798 /* Assets.xcassets */; };
+		15FADBB51C1AD0AF0088C798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FADBB31C1AD0AF0088C798 /* LaunchScreen.storyboard */; };
+		15FADBC01C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FADBBF1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewTests.swift */; };
+		15FADBCB1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FADBCA1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15FADBBC1C1AD0AF0088C798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15FADB9C1C1AD0AF0088C798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15FADBA31C1AD0AF0088C798;
+			remoteInfo = SwiftyKeyboardAvoidingScrollView;
+		};
+		15FADBC71C1AD0AF0088C798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15FADB9C1C1AD0AF0088C798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15FADBA31C1AD0AF0088C798;
+			remoteInfo = SwiftyKeyboardAvoidingScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15FADBA41C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyKeyboardAvoidingScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15FADBA71C1AD0AF0088C798 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15FADBA91C1AD0AF0088C798 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15FADBAC1C1AD0AF0088C798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15FADBAF1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftyKeyboardAvoidingScrollView.xcdatamodel; sourceTree = "<group>"; };
+		15FADBB11C1AD0AF0088C798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15FADBB41C1AD0AF0088C798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15FADBB61C1AD0AF0088C798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15FADBBB1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyKeyboardAvoidingScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15FADBBF1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyKeyboardAvoidingScrollViewTests.swift; sourceTree = "<group>"; };
+		15FADBC11C1AD0AF0088C798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15FADBC61C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyKeyboardAvoidingScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15FADBCA1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyKeyboardAvoidingScrollViewUITests.swift; sourceTree = "<group>"; };
+		15FADBCC1C1AD0AF0088C798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15FADBA11C1AD0AF0088C798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15FADBB81C1AD0AF0088C798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15FADBC31C1AD0AF0088C798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15FADB9B1C1AD0AF0088C798 = {
+			isa = PBXGroup;
+			children = (
+				15FADBA61C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollView */,
+				15FADBBE1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewTests */,
+				15FADBC91C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewUITests */,
+				15FADBA51C1AD0AF0088C798 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15FADBA51C1AD0AF0088C798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15FADBA41C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollView.app */,
+				15FADBBB1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewTests.xctest */,
+				15FADBC61C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15FADBA61C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				15FADBA71C1AD0AF0088C798 /* AppDelegate.swift */,
+				15FADBA91C1AD0AF0088C798 /* ViewController.swift */,
+				15FADBAB1C1AD0AF0088C798 /* Main.storyboard */,
+				15FADBB11C1AD0AF0088C798 /* Assets.xcassets */,
+				15FADBB31C1AD0AF0088C798 /* LaunchScreen.storyboard */,
+				15FADBB61C1AD0AF0088C798 /* Info.plist */,
+				15FADBAE1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollView.xcdatamodeld */,
+			);
+			path = SwiftyKeyboardAvoidingScrollView;
+			sourceTree = "<group>";
+		};
+		15FADBBE1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				15FADBBF1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewTests.swift */,
+				15FADBC11C1AD0AF0088C798 /* Info.plist */,
+			);
+			path = SwiftyKeyboardAvoidingScrollViewTests;
+			sourceTree = "<group>";
+		};
+		15FADBC91C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15FADBCA1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewUITests.swift */,
+				15FADBCC1C1AD0AF0088C798 /* Info.plist */,
+			);
+			path = SwiftyKeyboardAvoidingScrollViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15FADBA31C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15FADBCF1C1AD0AF0088C798 /* Build configuration list for PBXNativeTarget "SwiftyKeyboardAvoidingScrollView" */;
+			buildPhases = (
+				15FADBA01C1AD0AF0088C798 /* Sources */,
+				15FADBA11C1AD0AF0088C798 /* Frameworks */,
+				15FADBA21C1AD0AF0088C798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyKeyboardAvoidingScrollView;
+			productName = SwiftyKeyboardAvoidingScrollView;
+			productReference = 15FADBA41C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15FADBBA1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15FADBD21C1AD0AF0088C798 /* Build configuration list for PBXNativeTarget "SwiftyKeyboardAvoidingScrollViewTests" */;
+			buildPhases = (
+				15FADBB71C1AD0AF0088C798 /* Sources */,
+				15FADBB81C1AD0AF0088C798 /* Frameworks */,
+				15FADBB91C1AD0AF0088C798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15FADBBD1C1AD0AF0088C798 /* PBXTargetDependency */,
+			);
+			name = SwiftyKeyboardAvoidingScrollViewTests;
+			productName = SwiftyKeyboardAvoidingScrollViewTests;
+			productReference = 15FADBBB1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15FADBC51C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15FADBD51C1AD0AF0088C798 /* Build configuration list for PBXNativeTarget "SwiftyKeyboardAvoidingScrollViewUITests" */;
+			buildPhases = (
+				15FADBC21C1AD0AF0088C798 /* Sources */,
+				15FADBC31C1AD0AF0088C798 /* Frameworks */,
+				15FADBC41C1AD0AF0088C798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15FADBC81C1AD0AF0088C798 /* PBXTargetDependency */,
+			);
+			name = SwiftyKeyboardAvoidingScrollViewUITests;
+			productName = SwiftyKeyboardAvoidingScrollViewUITests;
+			productReference = 15FADBC61C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15FADB9C1C1AD0AF0088C798 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sugam Kalra";
+				TargetAttributes = {
+					15FADBA31C1AD0AF0088C798 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					15FADBBA1C1AD0AF0088C798 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 15FADBA31C1AD0AF0088C798;
+					};
+					15FADBC51C1AD0AF0088C798 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 15FADBA31C1AD0AF0088C798;
+					};
+				};
+			};
+			buildConfigurationList = 15FADB9F1C1AD0AF0088C798 /* Build configuration list for PBXProject "SwiftyKeyboardAvoidingScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15FADB9B1C1AD0AF0088C798;
+			productRefGroup = 15FADBA51C1AD0AF0088C798 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15FADBA31C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollView */,
+				15FADBBA1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewTests */,
+				15FADBC51C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15FADBA21C1AD0AF0088C798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FADBB51C1AD0AF0088C798 /* LaunchScreen.storyboard in Resources */,
+				15FADBB21C1AD0AF0088C798 /* Assets.xcassets in Resources */,
+				15FADBAD1C1AD0AF0088C798 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15FADBB91C1AD0AF0088C798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15FADBC41C1AD0AF0088C798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15FADBA01C1AD0AF0088C798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FADBAA1C1AD0AF0088C798 /* ViewController.swift in Sources */,
+				15FADBB01C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollView.xcdatamodeld in Sources */,
+				15FADBA81C1AD0AF0088C798 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15FADBB71C1AD0AF0088C798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FADBC01C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15FADBC21C1AD0AF0088C798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FADBCB1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15FADBBD1C1AD0AF0088C798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15FADBA31C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollView */;
+			targetProxy = 15FADBBC1C1AD0AF0088C798 /* PBXContainerItemProxy */;
+		};
+		15FADBC81C1AD0AF0088C798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15FADBA31C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollView */;
+			targetProxy = 15FADBC71C1AD0AF0088C798 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15FADBAB1C1AD0AF0088C798 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15FADBAC1C1AD0AF0088C798 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15FADBB31C1AD0AF0088C798 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15FADBB41C1AD0AF0088C798 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15FADBCD1C1AD0AF0088C798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15FADBCE1C1AD0AF0088C798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15FADBD01C1AD0AF0088C798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftyKeyboardAvoidingScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftyKeyboardAvoidingScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15FADBD11C1AD0AF0088C798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftyKeyboardAvoidingScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftyKeyboardAvoidingScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		15FADBD31C1AD0AF0088C798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftyKeyboardAvoidingScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftyKeyboardAvoidingScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyKeyboardAvoidingScrollView.app/SwiftyKeyboardAvoidingScrollView";
+			};
+			name = Debug;
+		};
+		15FADBD41C1AD0AF0088C798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftyKeyboardAvoidingScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftyKeyboardAvoidingScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyKeyboardAvoidingScrollView.app/SwiftyKeyboardAvoidingScrollView";
+			};
+			name = Release;
+		};
+		15FADBD61C1AD0AF0088C798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftyKeyboardAvoidingScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftyKeyboardAvoidingScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftyKeyboardAvoidingScrollView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		15FADBD71C1AD0AF0088C798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftyKeyboardAvoidingScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftyKeyboardAvoidingScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftyKeyboardAvoidingScrollView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15FADB9F1C1AD0AF0088C798 /* Build configuration list for PBXProject "SwiftyKeyboardAvoidingScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15FADBCD1C1AD0AF0088C798 /* Debug */,
+				15FADBCE1C1AD0AF0088C798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15FADBCF1C1AD0AF0088C798 /* Build configuration list for PBXNativeTarget "SwiftyKeyboardAvoidingScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15FADBD01C1AD0AF0088C798 /* Debug */,
+				15FADBD11C1AD0AF0088C798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15FADBD21C1AD0AF0088C798 /* Build configuration list for PBXNativeTarget "SwiftyKeyboardAvoidingScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15FADBD31C1AD0AF0088C798 /* Debug */,
+				15FADBD41C1AD0AF0088C798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15FADBD51C1AD0AF0088C798 /* Build configuration list for PBXNativeTarget "SwiftyKeyboardAvoidingScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15FADBD61C1AD0AF0088C798 /* Debug */,
+				15FADBD71C1AD0AF0088C798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		15FADBAE1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				15FADBAF1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollView.xcdatamodel */,
+			);
+			currentVersion = 15FADBAF1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollView.xcdatamodel */;
+			path = SwiftyKeyboardAvoidingScrollView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 15FADB9C1C1AD0AF0088C798 /* Project object */;
+}
