@@ -15,6 +15,7 @@
 		15FADBB51C1AD0AF0088C798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FADBB31C1AD0AF0088C798 /* LaunchScreen.storyboard */; };
 		15FADBC01C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FADBBF1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewTests.swift */; };
 		15FADBCB1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FADBCA1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewUITests.swift */; };
+		15FADBDA1C1AD0CB0088C798 /* KeyboardAvoidingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FADBD91C1AD0CB0088C798 /* KeyboardAvoidingScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		15FADBC61C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyKeyboardAvoidingScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15FADBCA1C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyKeyboardAvoidingScrollViewUITests.swift; sourceTree = "<group>"; };
 		15FADBCC1C1AD0AF0088C798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15FADBD91C1AD0CB0088C798 /* KeyboardAvoidingScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardAvoidingScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		15FADBA61C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				15FADBD81C1AD0BA0088C798 /* KeyboardAvoidingScrollView */,
 				15FADBA71C1AD0AF0088C798 /* AppDelegate.swift */,
 				15FADBA91C1AD0AF0088C798 /* ViewController.swift */,
 				15FADBAB1C1AD0AF0088C798 /* Main.storyboard */,
@@ -126,6 +129,14 @@
 				15FADBCC1C1AD0AF0088C798 /* Info.plist */,
 			);
 			path = SwiftyKeyboardAvoidingScrollViewUITests;
+			sourceTree = "<group>";
+		};
+		15FADBD81C1AD0BA0088C798 /* KeyboardAvoidingScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				15FADBD91C1AD0CB0088C798 /* KeyboardAvoidingScrollView.swift */,
+			);
+			name = KeyboardAvoidingScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				15FADBAA1C1AD0AF0088C798 /* ViewController.swift in Sources */,
 				15FADBB01C1AD0AF0088C798 /* SwiftyKeyboardAvoidingScrollView.xcdatamodeld in Sources */,
+				15FADBDA1C1AD0CB0088C798 /* KeyboardAvoidingScrollView.swift in Sources */,
 				15FADBA81C1AD0AF0088C798 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
